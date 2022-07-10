@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "quottech_landing"
+version = "0.1.0"
+description = ""
+authors = ["q0tik <maksim.topchilo@quot.tech>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.78.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
